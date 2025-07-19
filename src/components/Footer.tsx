@@ -22,14 +22,7 @@ const Footer = () => {
                 jasseleneramirez848@gmail.com
               </p>
             </div>
-            <div className="flex space-x-4 mt-4">
-              <a href="#" className="hover:text-sage">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="hover:text-sage">
-                <Linkedin size={20} />
-              </a>
-            </div>
+            
           </div>
           {/* Quick Links */}
           <div>
