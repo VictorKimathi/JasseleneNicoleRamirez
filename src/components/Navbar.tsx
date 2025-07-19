@@ -30,9 +30,7 @@ const Navbar = () => {
             <Link to="/portfolio" className="text-forest hover:text-sage font-medium">
               Portfolio
             </Link>
-            <Link to="/blog" className="text-forest hover:text-sage font-medium">
-              Blog
-            </Link>
+       
             <Link to="/contact" className="bg-adventure-orange hover:bg-adventure-orange/90 text-white px-4 py-2 rounded-md font-medium transition-colors">
               Contact
             </Link>
