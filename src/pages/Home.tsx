@@ -117,7 +117,7 @@ const Home = () => {
         </div>
       </section>
       {/* Featured Work */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
             <div>
@@ -139,7 +139,7 @@ const Home = () => {
             <ArticleCard title="Getting Started with Backyard Composting: A Complete Guide" category="Sustainable Living" image="https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" publication="EcoLiving Daily" readTime="7 min read" />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
 <section className="py-16 bg-white">
