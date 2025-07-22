@@ -7,7 +7,7 @@ const Portfolio = () => {
     id: 1,
     title: '5 One-Pot Campfire Dinners That Taste Way Better Than They Should',
     description: 'After a long day on the trail or around the campfire, few things hit the spot like a hot, hearty meal. It’s even better when it doesn’t leave you scrubbing dishes in the dark. These easy one-pot campfire meals are made for outdoor simplicity. Whether you're backpacking, car camping, or cooking in your backyard, these recipes go far beyond the usual can of beans.',
-    imageUrl: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&',
     category: 'Outdoor Cooking',
     tags: ['One-Pot Recipes', 'Campfire Meals', 'Easy Camping Food'],
     href: '5_One_Pot_Campfire_Dinners.pdf'
@@ -15,7 +15,7 @@ const Portfolio = () => {
     id: 2,
     title: 'How to Make a DIY Campfire Cooking Tripod from Natural Materials',
     description: 'A tripod is one of the simplest and most stable ways to suspend a pot over a fire. Instead of carrying a manufactured setup, you can build one on-site using strong sticks and basic cords. This method saves pack weight, uses local materials, and works in most wooded environments. With just three straight branches, a sharp cutting tool, and a length of rope or paracord, you can create a reliable structure for campfire cooking.',
-    imageUrl: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&',
     category: 'Outdoor DIY & Gear',
     tags: ['Campfire Tripod', 'Bushcraft Skills', 'Natural Materials'],
     href: 'How_to_Make_a_DIY.pdf'
@@ -23,7 +23,7 @@ const Portfolio = () => {
     id: 3,
     title: 'Backyard Astronomy: How to Stargaze Without a Telescope',
     description: 'Stargazing doesn’t require expensive equipment or remote locations. With clear skies and a little preparation, your own backyard is enough to explore planets, constellations, meteor showers, and even the occasional satellite or galaxy. What you see with the naked eye can be surprisingly detailed if you know when and where to look.',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&',
     category: 'Backyard Science & Exploration',
     tags: ['Stargazing Tips', 'Light Pollution Reduction', 'Family Astronomy'],
     href: 'Backyard_Astronomy.pdf'
