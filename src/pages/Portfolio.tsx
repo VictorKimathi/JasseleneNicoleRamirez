@@ -3,54 +3,30 @@ import PortfolioItem from '../components/PortfolioItem';
 import Button from '../components/Button';
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
-  const portfolioItems = [{
+  const portfolioItems = [ {
     id: 1,
-    title: 'Ultimate Guide to Roth IRA Conversions',
-    publisher: 'Finance Buzz',
-    description: 'Comprehensive 3,000-word guide explaining the process, benefits, and considerations of Roth IRA conversions for different financial situations.',
-    imageUrl: 'https://images.unsplash.com/photo-1565514020179-026b92b2d95b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'retirement',
-    tags: ['Retirement', 'Tax Strategy', 'Long-form']
+    title: '5 One-Pot Campfire Dinners That Taste Way Better Than They Should',
+    description: 'After a long day on the trail or around the campfire, few things hit the spot like a hot, hearty meal. It’s even better when it doesn’t leave you scrubbing dishes in the dark. These easy one-pot campfire meals are made for outdoor simplicity. Whether you're backpacking, car camping, or cooking in your backyard, these recipes go far beyond the usual can of beans.',
+    imageUrl: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    category: 'Outdoor Cooking',
+    tags: ['One-Pot Recipes', 'Campfire Meals', 'Easy Camping Food'],
+    href: '5_One_Pot_Campfire_Dinners.pdf'
   }, {
     id: 2,
-    title: '10 Side Hustles That Actually Pay Off in 2023',
-    publisher: 'The Penny Hoarder',
-    description: 'Data-driven analysis of profitable side hustles with real income potential, including startup costs, time investment, and expected returns.',
-    imageUrl: 'https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'income',
-    tags: ['Side Hustles', 'Income Generation', 'Practical Guide']
+    title: 'How to Make a DIY Campfire Cooking Tripod from Natural Materials',
+    description: 'A tripod is one of the simplest and most stable ways to suspend a pot over a fire. Instead of carrying a manufactured setup, you can build one on-site using strong sticks and basic cords. This method saves pack weight, uses local materials, and works in most wooded environments. With just three straight branches, a sharp cutting tool, and a length of rope or paracord, you can create a reliable structure for campfire cooking.',
+    imageUrl: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+    category: 'Outdoor DIY & Gear',
+    tags: ['Campfire Tripod', 'Bushcraft Skills', 'Natural Materials'],
+    href: 'How_to_Make_a_DIY.pdf'
   }, {
     id: 3,
-    title: 'Debt Avalanche vs. Debt Snowball: Which Strategy Wins?',
-    publisher: 'DollarSprout',
-    description: 'Comparative analysis of popular debt reduction methods with calculator tools and case studies showing real-world applications.',
-    imageUrl: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'debt',
-    tags: ['Debt Management', 'Financial Strategy', 'Comparative Analysis']
-  }, {
-    id: 4,
-    title: 'Tax Loss Harvesting: Turning Market Downturns into Tax Advantages',
-    publisher: 'Finance Buzz',
-    description: 'Strategic guide to minimizing tax liability through strategic investment losses, with timing considerations and IRS compliance guidelines.',
+    title: 'Backyard Astronomy: How to Stargaze Without a Telescope',
+    description: 'Stargazing doesn’t require expensive equipment or remote locations. With clear skies and a little preparation, your own backyard is enough to explore planets, constellations, meteor showers, and even the occasional satellite or galaxy. What you see with the naked eye can be surprisingly detailed if you know when and where to look.',
     imageUrl: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'tax',
-    tags: ['Tax Strategy', 'Investing', 'Advanced Technique']
-  }, {
-    id: 5,
-    title: 'Building Your First Emergency Fund: A Step-by-Step Guide',
-    publisher: 'The Penny Hoarder',
-    description: 'Beginner-friendly guide to establishing financial security through emergency savings, with practical savings strategies for various income levels.',
-    imageUrl: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'basics',
-    tags: ['Financial Basics', 'Emergency Planning', 'Beginner Guide']
-  }, {
-    id: 6,
-    title: 'The Complete Guide to 401(k) Plans in 2023',
-    publisher: 'DollarSprout',
-    description: 'Detailed explanation of 401(k) features, contribution strategies, and optimization techniques for maximizing employer benefits.',
-    imageUrl: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
-    category: 'retirement',
-    tags: ['Retirement', '401(k)', 'Comprehensive Guide']
+    category: 'Backyard Science & Exploration',
+    tags: ['Stargazing Tips', 'Light Pollution Reduction', 'Family Astronomy'],
+    href: 'Backyard_Astronomy.pdf'
   }];
   const filteredItems = filter === 'all' ? portfolioItems : portfolioItems.filter(item => item.category === filter);
   return <div className="w-full">
