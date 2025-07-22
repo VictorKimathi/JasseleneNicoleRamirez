@@ -40,7 +40,7 @@ const About = () => {
               <div className="order-1 md:order-2">
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   {/* Replace with an appropriate image for Jasselene */}
-                  <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae74?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Jasselene Nicole Ramirez" className="w-full h-auto object-cover" />
+                  <img src="m.jpg" alt="Jasselene Nicole Ramirez" className="w-full h-auto object-cover" />
                 </div>
               </div>
             </div>
