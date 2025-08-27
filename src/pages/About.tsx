@@ -70,7 +70,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-10">Work History</h2>
             <ExperienceItem
               role="Freelance Feature Writer"
-              company="Various Clients (including The Spruce, EcoLiving Daily, and HomeRooted)"
+              company="Various Clients (including Eco Horizons and Field & Hearth)"
               period="Jan 2021 – Present"
               location="Remote"
               achievements={[
